@@ -1,0 +1,18 @@
+[project]
+name = "tldr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.20.1",
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "psycopg[binary]>=3.3.6",
+    "sqlalchemy>=2.1.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
